@@ -2,19 +2,19 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between bg-white border-b-2 border-gray-100 p-4 mb-8">
-      <ul className="flex list-none">
-        <li className="mr-4">
+    <nav >
+      <ul >
+        <li >
           <Link href="/">
           Home
           </Link>
         </li>
-        <li className="mr-4">
+        <li >
           <Link href="/about">
           About
           </Link>
         </li>
-        <li className="mr-4">
+        <li >
           <Link href="/contact">
           Contact
           </Link>
